@@ -106,7 +106,7 @@ public class PaymentsUtil {
                 PaymentDataRequest.newBuilder()
                         .setPhoneNumberRequired(false)
                         .setEmailRequired(true)
-                        .setShippingAddressRequired(true)
+                        .setShippingAddressRequired(false)
 
                         // Omitting ShippingAddressRequirements all together means all countries are
                         // supported.

@@ -48,8 +48,6 @@ public class Constants {
     // The allowed networks to be requested from the API. If the user has cards from networks not
     // specified here in their account, these will not be offered for them to choose in the popup.
     public static final List<Integer> SUPPORTED_NETWORKS = Arrays.asList(
-            WalletConstants.CARD_NETWORK_AMEX,
-            WalletConstants.CARD_NETWORK_DISCOVER,
             WalletConstants.CARD_NETWORK_VISA,
             WalletConstants.CARD_NETWORK_MASTERCARD
     );
@@ -66,7 +64,7 @@ public class Constants {
     );
 
     // Required by the API, but not visible to the user.
-    public static final String CURRENCY_CODE = "USD";
+    public static final String CURRENCY_CODE = "RUB";
 
     // Supported countries for shipping (use ISO 3166-1 alpha-2 country codes).
     // Relevant only when requesting a shipping address.
@@ -77,7 +75,7 @@ public class Constants {
 
     // The name of your payment processor / gateway. Please refer to their documentation for
     // more information.
-    public static final String GATEWAY_TOKENIZATION_NAME = "example";
+    public static final String GATEWAY_TOKENIZATION_NAME = "rbkmoney";
 
     // Custom parameters required by the processor / gateway.
     // In many cases, your processor / gateway will only require a gatewayMerchantId.
